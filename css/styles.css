@@ -107,6 +107,22 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+a h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  size: 2em;
+  margin-top: 0.3em;
+}
+
+div .pato {
+  margin-bottom: 1.5em;
+}
+div .pato  img{
+  padding-top: -5em;
+}
+div .pato  div .text-dialog{
+  padding: 20em;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -3778,7 +3794,9 @@ textarea.form-control-lg {
   text-decoration: none;
   white-space: nowrap;
 }
-
+.navbar-brand:hover, .navbar-brand:focus {
+  color: var(--bs-navbar-brand-hover-color);
+}
 
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
@@ -10954,6 +10972,8 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
