@@ -107,21 +107,42 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+header {
+  margin-top: -10em;
+ 
+}
+
+p.espacio {
+  height: 4em;
+}
+
+
+
 a h2 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   size: 2em;
   margin-top: 0.3em;
 }
 
-div .pato {
-  margin-bottom: 1.5em;
+div.pato {
+  align-items: center;
 }
-div .pato  img{
-  padding-top: -5em;
+div.pato div.text-dialog  {
+
+  padding-top: 7em;
 }
-div .pato  div .text-dialog{
-  padding: 20em;
-}
+ div.pato img {
+  height: 3.5em;
+  width: 3em;
+  margin-left: -.3em;
+  
+ }
+
+ nav.segonPla {
+  padding-bottom: 10em;
+ }
+
+
 
 hr {
   margin: 1rem 0;
