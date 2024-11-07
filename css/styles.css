@@ -125,6 +125,24 @@ div.info {
 }
 
 
+.container2 {
+  margin-top: 8em;
+}
+.infovideo
+{
+  text-align: center;
+  align-items: center;
+}
+
+.text1 p {
+  width: 70%;
+}
+
+.video p img {
+  width: 70%;
+}
+
+
 div.imginfo img {
   height: 14em;
 }
