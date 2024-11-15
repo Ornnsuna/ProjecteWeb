@@ -1,15 +1,4 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Agency v7.0.12 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap  v5.2.3 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 
 
  
@@ -107,6 +96,8 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+
+
 header {
   margin-top: -10em;
  
@@ -125,18 +116,10 @@ div.info {
 }
 
 
-.container2 {
-  margin-top: 8em;
-}
-.infovideo
-{
-  text-align: center;
-  align-items: center;
+div.text1 {
+  margin: 5em;
 }
 
-.text1 p {
-  width: 70%;
-}
 
 .video p img {
   width: 70%;
@@ -157,6 +140,14 @@ div.primerainfo {
 div.imginfo img {
   width: 40%;
 }
+div.collapse ul li a p {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.3em;
+}
+
+div.collapse {
+  margin-top: 1em;
+}
 
 a h2 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -164,22 +155,37 @@ a h2 {
   margin-top: 0.3em;
 }
 
+
+
+
 div.pato {
   align-items: center;
 }
 div.pato div.text-dialog  {
 
-  padding-top: 7em;
+  padding-top: 4em;
 }
  div.pato img {
-  height: 3.5em;
-  width: 3em;
+  height: 20em;
+  width: auto;
   margin-left: -.3em;
   
  }
 
+ img.btniconinfo {
+  height: 20em;
+ }
+
  nav.segonPla {
   padding-bottom: 10em;
+ }
+
+ div.mapas {
+  margin-bottom: 2em;
+ }
+
+ .textContainer {
+  margin: 4em;
  }
 
 
@@ -191,6 +197,8 @@ hr {
   border-top: 1px solid;
   opacity: 0.25;
 }
+
+
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
@@ -11078,7 +11086,7 @@ header.masthead .masthead-heading {
   display: block;
   margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#portfolio .portfolio-item .portfolio-link {
   display: flex;
   position: absolute;
   width: 100%;
@@ -11089,11 +11097,11 @@ header.masthead .masthead-heading {
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#portfolio .portfolio-item .portfolio-link {
   font-size: 1.25rem;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
+#portfolio .portfolio-item {
   opacity: 1;
 }
 #portfolio .portfolio-item .portfolio-caption {
@@ -11323,7 +11331,7 @@ header.masthead .masthead-heading {
   margin-bottom: 3rem;
   text-align: center;
 }
-.team-member img {
+.team-member img.nosaltres {
   width: 14rem;
   height: 14rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
