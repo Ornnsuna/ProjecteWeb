@@ -155,7 +155,9 @@ a h2 {
   margin-top: 0.3em;
 }
 
-
+footer {
+  width: 100%;
+}
 
 
 div.pato {
@@ -182,6 +184,14 @@ div.pato div.text-dialog  {
 
  div.mapas {
   margin-bottom: 2em;
+  
+ }
+
+ div.mapas img {
+  width: 170%;
+  margin-left: -9em;
+  margin-top: 2em;
+
  }
 
  .textContainer {
@@ -197,6 +207,8 @@ hr {
   border-top: 1px solid;
   opacity: 0.25;
 }
+
+
 
 
 
