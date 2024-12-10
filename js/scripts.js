@@ -1,8 +1,7 @@
 window.addEventListener('DOMContentLoaded', event => {
 
-    // Navbar shrink function
     var navbarShrink = function () {
-        const navbarCollapsible = document.body.querySelector('#mainNav');
+        const navbarCollapsible = document.body.querySelector('.navbar');
         if (!navbarCollapsible) {
             return;
         }
@@ -12,5 +11,12 @@ window.addEventListener('DOMContentLoaded', event => {
     };
 
     navbarShrink();
+
+    const toggler = document.getElementById('navbarToggler');
+    const navbarResponsive = document.getElementById('navbarResponsive');
+
+    toggler.addEventListener('click', () => {
+        navbarResponsive.classList.toggle('show');
+    });
 
 });
