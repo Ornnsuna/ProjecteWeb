@@ -178,12 +178,13 @@ div.pato div.text-dialog  {
 
  div.mapas {
   margin-bottom: 2em;
-  
+  text-align: center;
  }
 
  div.mapas img {
-  width: 100%;
+  width: 80%;
   margin-top: 2em;
+  margin-bottom: 2em;
  }
  .textContainer {
   margin: 4em;
@@ -195,7 +196,10 @@ div.pato div.text-dialog  {
  }
 
  .patoLand {
+  text-align: center;
+  align-items:  center;
   width: 100%;
+  
  }
 
 .nav-mapa {
