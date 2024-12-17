@@ -1,6 +1,4 @@
 @charset "UTF-8";
-
-
 * {
   margin: 0em;
   max-width: 100%;
@@ -34,6 +32,20 @@ nav {
   color: white;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 10px 20px;
+}
+
+.boton-descarga {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffc800;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.boton-descarga:hover {
+  background-color: #ffc800;
 }
 
 .navbar-brand {
